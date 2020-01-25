@@ -1,0 +1,161 @@
+Jan. 25, 2020 5:53:10 P.M. assignment.Main main
+INFO: Transaction Types
+1. Select
+2. Insert
+3. Update
+4. Delete
+5. Exit
+Jan. 25, 2020 5:53:10 P.M. assignment.Main main
+INFO: Enter the Transaction type [1-5]:
+Jan. 25, 2020 5:53:15 P.M. assignment.Main main
+INFO: 2
+Jan. 25, 2020 5:53:15 P.M. assignment.Main main
+INFO: Insert Transaction:
+Jan. 25, 2020 5:53:15 P.M. assignment.Main main
+INFO: Enter Transaction ID: 
+Jan. 25, 2020 5:53:18 P.M. assignment.MySQLAccess setupConnection
+INFO: Successfully connected to MySQL Server
+Jan. 25, 2020 5:53:18 P.M. assignment.TransactionMethods userInput
+INFO: Enter the Name on the Card:
+Jan. 25, 2020 5:53:24 P.M. assignment.ValidationTest validationMethod
+INFO: valid data:
+Jan. 25, 2020 5:53:24 P.M. assignment.ValidationTest validateVar
+INFO: Valid input: Bijay
+Jan. 25, 2020 5:53:24 P.M. assignment.TransactionMethods userInput
+INFO: Enter credit card type: " + "M for Masters, V for Visa or AE for American Express
+Jan. 25, 2020 5:53:26 P.M. assignment.TransactionMethods userInput
+INFO: Enter number on the card: 
+Jan. 25, 2020 5:53:30 P.M. assignment.ValidationTest validationCerditCard
+INFO: Valid input
+Jan. 25, 2020 5:53:30 P.M. assignment.TransactionMethods userInput
+INFO: Enter the Expiry Date (MM/YYYY):
+Jan. 25, 2020 5:53:35 P.M. assignment.TransactionMethods userInput
+INFO: Enter the Quantity:
+Jan. 25, 2020 5:53:38 P.M. assignment.TransactionMethods userInput
+INFO: Enter the unit price:
+Jan. 25, 2020 5:53:40 P.M. assignment.TransactionMethods userInput
+INFO: Enter the total price:
+Jan. 25, 2020 5:53:40 P.M. assignment.MySQLAccess setupConnection
+INFO: Successfully connected to MySQL Server
+Jan. 25, 2020 5:53:40 P.M. assignment.MySQLAccess createTransaction
+INFO: Name on the card = Bijay
+Jan. 25, 2020 5:53:40 P.M. assignment.MySQLAccess createTransaction
+INFO: 1 new record insert successfully1
+Jan. 25, 2020 5:53:40 P.M. assignment.Main main
+INFO: Do you want to continue? (Y/N)
+Jan. 25, 2020 5:53:42 P.M. assignment.Main main
+INFO: Y
+Jan. 25, 2020 5:53:42 P.M. assignment.Main main
+INFO: Transaction Types
+1. Select
+2. Insert
+3. Update
+4. Delete
+5. Exit
+Jan. 25, 2020 5:53:42 P.M. assignment.Main main
+INFO: Enter the Transaction type [1-5]:
+Jan. 25, 2020 5:53:45 P.M. assignment.Main main
+INFO: 1
+Jan. 25, 2020 5:53:45 P.M. assignment.Main main
+INFO: You're going to select data:
+Jan. 25, 2020 5:53:45 P.M. assignment.Main main
+INFO: Enter transaction Id: 
+Jan. 25, 2020 5:53:48 P.M. assignment.MySQLAccess setupConnection
+INFO: Successfully connected to MySQL Server
+Jan. 25, 2020 5:53:48 P.M. assignment.TransactionMethods selectMethod
+INFO: Transaction [id=100, quantity=150, expDate=02/2021, createdBy=bijay, unitPrice=25.0, totalPrice=3750.0, nameOnCard=Bijay, cardNumber=12201254455, creditCardType=MASTER]
+Jan. 25, 2020 5:53:48 P.M. assignment.Main main
+INFO: success
+Jan. 25, 2020 5:53:48 P.M. assignment.Main main
+INFO: Do you want to continue? (Y/N)
+Jan. 25, 2020 5:53:54 P.M. assignment.Main main
+INFO: Y
+Jan. 25, 2020 5:53:54 P.M. assignment.Main main
+INFO: Transaction Types
+1. Select
+2. Insert
+3. Update
+4. Delete
+5. Exit
+Jan. 25, 2020 5:53:54 P.M. assignment.Main main
+INFO: Enter the Transaction type [1-5]:
+Jan. 25, 2020 5:53:57 P.M. assignment.Main main
+INFO: 3
+Jan. 25, 2020 5:53:57 P.M. assignment.Main main
+INFO: update Transaction: 
+Jan. 25, 2020 5:53:57 P.M. assignment.Main main
+INFO: Enter userID to update: 
+Jan. 25, 2020 5:54:00 P.M. assignment.MySQLAccess setupConnection
+INFO: Successfully connected to MySQL Server
+Jan. 25, 2020 5:54:00 P.M. assignment.TransactionMethods selectMethod
+INFO: Transaction [id=100, quantity=150, expDate=02/2021, createdBy=bijay, unitPrice=25.0, totalPrice=3750.0, nameOnCard=Bijay, cardNumber=12201254455, creditCardType=MASTER]
+Jan. 25, 2020 5:54:00 P.M. assignment.TransactionMethods userInput
+INFO: Enter the Name on the Card:
+Jan. 25, 2020 5:54:06 P.M. assignment.ValidationTest validationMethod
+INFO: valid data:
+Jan. 25, 2020 5:54:06 P.M. assignment.ValidationTest validateVar
+INFO: Valid input: Bijay Khadka
+Jan. 25, 2020 5:54:06 P.M. assignment.TransactionMethods userInput
+INFO: Enter credit card type: " + "M for Masters, V for Visa or AE for American Express
+Jan. 25, 2020 5:54:11 P.M. assignment.TransactionMethods userInput
+INFO: Enter number on the card: 
+Jan. 25, 2020 5:54:16 P.M. assignment.ValidationTest validationCerditCard
+INFO: Valid input
+Jan. 25, 2020 5:54:16 P.M. assignment.TransactionMethods userInput
+INFO: Enter the Expiry Date (MM/YYYY):
+Jan. 25, 2020 5:54:20 P.M. assignment.TransactionMethods userInput
+INFO: Enter the Quantity:
+Jan. 25, 2020 5:54:24 P.M. assignment.TransactionMethods userInput
+INFO: Enter the unit price:
+Jan. 25, 2020 5:54:26 P.M. assignment.TransactionMethods userInput
+INFO: Enter the total price:
+Jan. 25, 2020 5:54:26 P.M. assignment.MySQLAccess setupConnection
+INFO: Successfully connected to MySQL Server
+Jan. 25, 2020 5:54:26 P.M. assignment.MySQLAccess updateTransaction
+INFO: An Existing user updated successfully!
+Jan. 25, 2020 5:54:26 P.M. assignment.Main main
+INFO: Do you want to continue? (Y/N)
+Jan. 25, 2020 5:54:29 P.M. assignment.Main main
+INFO: Y
+Jan. 25, 2020 5:54:29 P.M. assignment.Main main
+INFO: Transaction Types
+1. Select
+2. Insert
+3. Update
+4. Delete
+5. Exit
+Jan. 25, 2020 5:54:29 P.M. assignment.Main main
+INFO: Enter the Transaction type [1-5]:
+Jan. 25, 2020 5:54:33 P.M. assignment.Main main
+INFO: 4
+Jan. 25, 2020 5:54:33 P.M. assignment.Main main
+INFO: delete Transaction: 
+Jan. 25, 2020 5:54:33 P.M. assignment.MySQLAccess setupConnection
+INFO: Successfully connected to MySQL Server
+Jan. 25, 2020 5:54:33 P.M. assignment.TransactionMethods deleteMethod
+INFO: Enter Transaction ID to delete: 
+Jan. 25, 2020 5:54:35 P.M. assignment.MySQLAccess setupConnection
+INFO: Successfully connected to MySQL Server
+Jan. 25, 2020 5:54:35 P.M. assignment.TransactionMethods selectMethod
+INFO: Transaction [id=100, quantity=200, expDate=02/2024, createdBy=bijay, unitPrice=75.0, totalPrice=15000.0, nameOnCard=Bijay Khadka, cardNumber=50125544122017, creditCardType=VISA]
+Jan. 25, 2020 5:54:35 P.M. assignment.MySQLAccess deleteTransaction
+INFO: A user was deleted successfully!
+Jan. 25, 2020 5:54:35 P.M. assignment.Main main
+INFO: Transaction is Successfully deleted!
+Jan. 25, 2020 5:54:35 P.M. assignment.Main main
+INFO: Do you want to continue? (Y/N)
+Jan. 25, 2020 5:54:37 P.M. assignment.Main main
+INFO: Y
+Jan. 25, 2020 5:54:37 P.M. assignment.Main main
+INFO: Transaction Types
+1. Select
+2. Insert
+3. Update
+4. Delete
+5. Exit
+Jan. 25, 2020 5:54:37 P.M. assignment.Main main
+INFO: Enter the Transaction type [1-5]:
+Jan. 25, 2020 5:54:40 P.M. assignment.Main main
+INFO: 5
+Jan. 25, 2020 5:54:40 P.M. assignment.Main main
+INFO: Exiting... 
